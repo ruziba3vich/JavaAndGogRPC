@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.prodonik.genprotos";
+option go_package = "./genprotos";
 
 message ArithmeticsRequest {
     double num1 = 1;

@@ -5,8 +5,8 @@
 
 package com.prodonik.genprotos;
 
-public final class IArithmetics {
-  private IArithmetics() {}
+public final class Arith {
+  private Arith() {}
   static {
     com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
       com.google.protobuf.RuntimeVersion.RuntimeDomain.PUBLIC,
@@ -14,7 +14,7 @@ public final class IArithmetics {
       /* minor= */ 27,
       /* patch= */ 1,
       /* suffix= */ "",
-      IArithmetics.class.getName());
+      Arith.class.getName());
   }
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
@@ -67,15 +67,15 @@ public final class IArithmetics {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsRequest_descriptor;
+      return com.prodonik.genprotos.Arith.internal_static_ArithmeticsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsRequest_fieldAccessorTable
+      return com.prodonik.genprotos.Arith.internal_static_ArithmeticsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.class, com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.Builder.class);
+              com.prodonik.genprotos.Arith.ArithmeticsRequest.class, com.prodonik.genprotos.Arith.ArithmeticsRequest.Builder.class);
     }
 
     public static final int NUM1_FIELD_NUMBER = 1;
@@ -147,10 +147,10 @@ public final class IArithmetics {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.prodonik.genprotos.IArithmetics.ArithmeticsRequest)) {
+      if (!(obj instanceof com.prodonik.genprotos.Arith.ArithmeticsRequest)) {
         return super.equals(obj);
       }
-      com.prodonik.genprotos.IArithmetics.ArithmeticsRequest other = (com.prodonik.genprotos.IArithmetics.ArithmeticsRequest) obj;
+      com.prodonik.genprotos.Arith.ArithmeticsRequest other = (com.prodonik.genprotos.Arith.ArithmeticsRequest) obj;
 
       if (java.lang.Double.doubleToLongBits(getNum1())
           != java.lang.Double.doubleToLongBits(
@@ -180,44 +180,44 @@ public final class IArithmetics {
       return hash;
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(byte[] data)
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(java.io.InputStream input)
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -225,26 +225,26 @@ public final class IArithmetics {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseDelimitedFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -257,7 +257,7 @@ public final class IArithmetics {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.prodonik.genprotos.IArithmetics.ArithmeticsRequest prototype) {
+    public static Builder newBuilder(com.prodonik.genprotos.Arith.ArithmeticsRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -278,21 +278,21 @@ public final class IArithmetics {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:ArithmeticsRequest)
-        com.prodonik.genprotos.IArithmetics.ArithmeticsRequestOrBuilder {
+        com.prodonik.genprotos.Arith.ArithmeticsRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsRequest_descriptor;
+        return com.prodonik.genprotos.Arith.internal_static_ArithmeticsRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsRequest_fieldAccessorTable
+        return com.prodonik.genprotos.Arith.internal_static_ArithmeticsRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.class, com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.Builder.class);
+                com.prodonik.genprotos.Arith.ArithmeticsRequest.class, com.prodonik.genprotos.Arith.ArithmeticsRequest.Builder.class);
       }
 
-      // Construct using com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.newBuilder()
+      // Construct using com.prodonik.genprotos.Arith.ArithmeticsRequest.newBuilder()
       private Builder() {
 
       }
@@ -314,17 +314,17 @@ public final class IArithmetics {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsRequest_descriptor;
+        return com.prodonik.genprotos.Arith.internal_static_ArithmeticsRequest_descriptor;
       }
 
       @java.lang.Override
-      public com.prodonik.genprotos.IArithmetics.ArithmeticsRequest getDefaultInstanceForType() {
-        return com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.getDefaultInstance();
+      public com.prodonik.genprotos.Arith.ArithmeticsRequest getDefaultInstanceForType() {
+        return com.prodonik.genprotos.Arith.ArithmeticsRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.prodonik.genprotos.IArithmetics.ArithmeticsRequest build() {
-        com.prodonik.genprotos.IArithmetics.ArithmeticsRequest result = buildPartial();
+      public com.prodonik.genprotos.Arith.ArithmeticsRequest build() {
+        com.prodonik.genprotos.Arith.ArithmeticsRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -332,14 +332,14 @@ public final class IArithmetics {
       }
 
       @java.lang.Override
-      public com.prodonik.genprotos.IArithmetics.ArithmeticsRequest buildPartial() {
-        com.prodonik.genprotos.IArithmetics.ArithmeticsRequest result = new com.prodonik.genprotos.IArithmetics.ArithmeticsRequest(this);
+      public com.prodonik.genprotos.Arith.ArithmeticsRequest buildPartial() {
+        com.prodonik.genprotos.Arith.ArithmeticsRequest result = new com.prodonik.genprotos.Arith.ArithmeticsRequest(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.prodonik.genprotos.IArithmetics.ArithmeticsRequest result) {
+      private void buildPartial0(com.prodonik.genprotos.Arith.ArithmeticsRequest result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.num1_ = num1_;
@@ -351,16 +351,16 @@ public final class IArithmetics {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.prodonik.genprotos.IArithmetics.ArithmeticsRequest) {
-          return mergeFrom((com.prodonik.genprotos.IArithmetics.ArithmeticsRequest)other);
+        if (other instanceof com.prodonik.genprotos.Arith.ArithmeticsRequest) {
+          return mergeFrom((com.prodonik.genprotos.Arith.ArithmeticsRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.prodonik.genprotos.IArithmetics.ArithmeticsRequest other) {
-        if (other == com.prodonik.genprotos.IArithmetics.ArithmeticsRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.prodonik.genprotos.Arith.ArithmeticsRequest other) {
+        if (other == com.prodonik.genprotos.Arith.ArithmeticsRequest.getDefaultInstance()) return this;
         if (other.getNum1() != 0D) {
           setNum1(other.getNum1());
         }
@@ -488,12 +488,12 @@ public final class IArithmetics {
     }
 
     // @@protoc_insertion_point(class_scope:ArithmeticsRequest)
-    private static final com.prodonik.genprotos.IArithmetics.ArithmeticsRequest DEFAULT_INSTANCE;
+    private static final com.prodonik.genprotos.Arith.ArithmeticsRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.prodonik.genprotos.IArithmetics.ArithmeticsRequest();
+      DEFAULT_INSTANCE = new com.prodonik.genprotos.Arith.ArithmeticsRequest();
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsRequest getDefaultInstance() {
+    public static com.prodonik.genprotos.Arith.ArithmeticsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -529,7 +529,7 @@ public final class IArithmetics {
     }
 
     @java.lang.Override
-    public com.prodonik.genprotos.IArithmetics.ArithmeticsRequest getDefaultInstanceForType() {
+    public com.prodonik.genprotos.Arith.ArithmeticsRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -571,15 +571,15 @@ public final class IArithmetics {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsResponse_descriptor;
+      return com.prodonik.genprotos.Arith.internal_static_ArithmeticsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsResponse_fieldAccessorTable
+      return com.prodonik.genprotos.Arith.internal_static_ArithmeticsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.class, com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.Builder.class);
+              com.prodonik.genprotos.Arith.ArithmeticsResponse.class, com.prodonik.genprotos.Arith.ArithmeticsResponse.Builder.class);
     }
 
     public static final int RESULT_FIELD_NUMBER = 1;
@@ -633,10 +633,10 @@ public final class IArithmetics {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.prodonik.genprotos.IArithmetics.ArithmeticsResponse)) {
+      if (!(obj instanceof com.prodonik.genprotos.Arith.ArithmeticsResponse)) {
         return super.equals(obj);
       }
-      com.prodonik.genprotos.IArithmetics.ArithmeticsResponse other = (com.prodonik.genprotos.IArithmetics.ArithmeticsResponse) obj;
+      com.prodonik.genprotos.Arith.ArithmeticsResponse other = (com.prodonik.genprotos.Arith.ArithmeticsResponse) obj;
 
       if (java.lang.Double.doubleToLongBits(getResult())
           != java.lang.Double.doubleToLongBits(
@@ -660,44 +660,44 @@ public final class IArithmetics {
       return hash;
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(byte[] data)
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(java.io.InputStream input)
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -705,26 +705,26 @@ public final class IArithmetics {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseDelimitedFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse parseFrom(
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -737,7 +737,7 @@ public final class IArithmetics {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.prodonik.genprotos.IArithmetics.ArithmeticsResponse prototype) {
+    public static Builder newBuilder(com.prodonik.genprotos.Arith.ArithmeticsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -758,21 +758,21 @@ public final class IArithmetics {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:ArithmeticsResponse)
-        com.prodonik.genprotos.IArithmetics.ArithmeticsResponseOrBuilder {
+        com.prodonik.genprotos.Arith.ArithmeticsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsResponse_descriptor;
+        return com.prodonik.genprotos.Arith.internal_static_ArithmeticsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsResponse_fieldAccessorTable
+        return com.prodonik.genprotos.Arith.internal_static_ArithmeticsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.class, com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.Builder.class);
+                com.prodonik.genprotos.Arith.ArithmeticsResponse.class, com.prodonik.genprotos.Arith.ArithmeticsResponse.Builder.class);
       }
 
-      // Construct using com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.newBuilder()
+      // Construct using com.prodonik.genprotos.Arith.ArithmeticsResponse.newBuilder()
       private Builder() {
 
       }
@@ -793,17 +793,17 @@ public final class IArithmetics {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.prodonik.genprotos.IArithmetics.internal_static_ArithmeticsResponse_descriptor;
+        return com.prodonik.genprotos.Arith.internal_static_ArithmeticsResponse_descriptor;
       }
 
       @java.lang.Override
-      public com.prodonik.genprotos.IArithmetics.ArithmeticsResponse getDefaultInstanceForType() {
-        return com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.getDefaultInstance();
+      public com.prodonik.genprotos.Arith.ArithmeticsResponse getDefaultInstanceForType() {
+        return com.prodonik.genprotos.Arith.ArithmeticsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.prodonik.genprotos.IArithmetics.ArithmeticsResponse build() {
-        com.prodonik.genprotos.IArithmetics.ArithmeticsResponse result = buildPartial();
+      public com.prodonik.genprotos.Arith.ArithmeticsResponse build() {
+        com.prodonik.genprotos.Arith.ArithmeticsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -811,14 +811,14 @@ public final class IArithmetics {
       }
 
       @java.lang.Override
-      public com.prodonik.genprotos.IArithmetics.ArithmeticsResponse buildPartial() {
-        com.prodonik.genprotos.IArithmetics.ArithmeticsResponse result = new com.prodonik.genprotos.IArithmetics.ArithmeticsResponse(this);
+      public com.prodonik.genprotos.Arith.ArithmeticsResponse buildPartial() {
+        com.prodonik.genprotos.Arith.ArithmeticsResponse result = new com.prodonik.genprotos.Arith.ArithmeticsResponse(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.prodonik.genprotos.IArithmetics.ArithmeticsResponse result) {
+      private void buildPartial0(com.prodonik.genprotos.Arith.ArithmeticsResponse result) {
         int from_bitField0_ = bitField0_;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           result.result_ = result_;
@@ -827,16 +827,16 @@ public final class IArithmetics {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.prodonik.genprotos.IArithmetics.ArithmeticsResponse) {
-          return mergeFrom((com.prodonik.genprotos.IArithmetics.ArithmeticsResponse)other);
+        if (other instanceof com.prodonik.genprotos.Arith.ArithmeticsResponse) {
+          return mergeFrom((com.prodonik.genprotos.Arith.ArithmeticsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.prodonik.genprotos.IArithmetics.ArithmeticsResponse other) {
-        if (other == com.prodonik.genprotos.IArithmetics.ArithmeticsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.prodonik.genprotos.Arith.ArithmeticsResponse other) {
+        if (other == com.prodonik.genprotos.Arith.ArithmeticsResponse.getDefaultInstance()) return this;
         if (other.getResult() != 0D) {
           setResult(other.getResult());
         }
@@ -924,12 +924,12 @@ public final class IArithmetics {
     }
 
     // @@protoc_insertion_point(class_scope:ArithmeticsResponse)
-    private static final com.prodonik.genprotos.IArithmetics.ArithmeticsResponse DEFAULT_INSTANCE;
+    private static final com.prodonik.genprotos.Arith.ArithmeticsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.prodonik.genprotos.IArithmetics.ArithmeticsResponse();
+      DEFAULT_INSTANCE = new com.prodonik.genprotos.Arith.ArithmeticsResponse();
     }
 
-    public static com.prodonik.genprotos.IArithmetics.ArithmeticsResponse getDefaultInstance() {
+    public static com.prodonik.genprotos.Arith.ArithmeticsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -965,7 +965,7 @@ public final class IArithmetics {
     }
 
     @java.lang.Override
-    public com.prodonik.genprotos.IArithmetics.ArithmeticsResponse getDefaultInstanceForType() {
+    public com.prodonik.genprotos.Arith.ArithmeticsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -998,8 +998,8 @@ public final class IArithmetics {
       "sRequest\032\024.ArithmeticsResponse\0225\n\010Multip" +
       "ly\022\023.ArithmeticsRequest\032\024.ArithmeticsRes" +
       "ponse\0223\n\006Divide\022\023.ArithmeticsRequest\032\024.A" +
-      "rithmeticsResponseB&\n\026com.prodonik.genpr" +
-      "otosB\014IArithmeticsb\006proto3"
+      "rithmeticsResponseB\030\n\026com.prodonik.genpr" +
+      "otosb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

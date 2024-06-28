@@ -1,11 +1,11 @@
 package com.prodonik.arithemtics.repo;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-import com.prodonik.genprotos.IArithmetics.ArithmeticsRequest;
-import com.prodonik.genprotos.IArithmetics.ArithmeticsResponse;
+import com.prodonik.genprotos.Arith.ArithmeticsResponse;
+import com.prodonik.genprotos.Arith.ArithmeticsRequest;;
 
-@Service
+@Component
 public class Storage {
     public ArithmeticsResponse addNums(ArithmeticsRequest req) {
         return ArithmeticsResponse
